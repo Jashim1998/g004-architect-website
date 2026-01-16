@@ -140,19 +140,25 @@
     margin-bottom: 0px;
 }
 
-#Experience-badge {
+.feature-architect img {
+    width: 100%;
+}
+
+#experience-badge {
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+
+}
+
+#experience-year {
     font-size: 4rem;
     font-weight: 700;
-    line-height: 70px;
     color: #FFFFFF;
 }
 
-#Experience-year {
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 40px;
-    color: #FFFFFF;
-}
 
 /* sponspor related styles */
 .sponspors-info {
@@ -175,19 +181,22 @@
 @media screen and (max-width:576px) {
 
     .navbar,
-    .nav-links {
+    .nav-links,
+    .features,
+    .teams {
         flex-direction: column;
     }
 
     .teams-img-container,
     .facts-container,
-    .sponspor-companies {
-        grid-template-columns: 1fr;
-    }
+    .sponspor-companies,
+    {
+    grid-template-columns: 1fr;
+}
 
-    .facts-container,
-    .sponspor-companies {
-        justify-items: center;
-        gap: 24px;
-    }
+.facts-container,
+.sponspor-companies {
+    justify-items: center;
+    gap: 24px;
+}
 }
